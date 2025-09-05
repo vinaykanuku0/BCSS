@@ -1,0 +1,24 @@
+.loading-indicator:before {
+  content: '';
+  background: #f1efefcc;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.loading-indicator:after {
+  content: '';
+  position: fixed;
+  width: 90px;
+  height: 100px;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  z-index: 100001;
+  background-image: url('../Images/Loader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

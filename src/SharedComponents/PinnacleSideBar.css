@@ -1,0 +1,64 @@
+.leftMenuTogggle {
+    padding: 1.4rem;
+    position: absolute;
+    top: 0;
+    right: 4rem;
+    color: #fff;
+}
+
+a.ps-menu-button:hover {
+    color: #000;
+}
+
+.ps-menuitem-root.active {
+    background-color: #f7f7f7;
+}
+
+.ps-menuitem-root.active a {
+    color: #000;
+}
+
+.fixed-link {
+    position: fixed;
+    top: 0;
+    /* width: 16%; */
+
+    z-index: 1000;
+    /* Ensure it stays on top of other content */
+    /* background-color: white; */
+    /* Adjust based on your theme */
+}
+
+.scrollable-content {
+    /* margin-top: 100px; */
+    /* Adjust this value to the height of your Link */
+    overflow-y: auto;
+    height: calc(100% - 150px);
+    /* Adjust this value to the height of your Link */
+}
+
+.css-1wvake5 {
+    border-right-style: none !important;
+}
+
+.css-akqkiw {
+    border-right-style: none !important;
+}
+.with-line::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgba(0, 123, 255, 0.2), rgba(255, 255, 255, 0.7)); */
+    background: #fff;
+
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .sidenav {
+  transition: width 0.3s ease;
+}
